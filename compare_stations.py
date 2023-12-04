@@ -14,7 +14,7 @@ import numpy as np
 from trend_classifier import Segmenter
 
 url = 'http://10.10.82.215/AQUARIUS/'
-db = rwb_aquarius_data_analysis(url, 'User3', 'iwrm@2021!')
+db = rwb_aquarius_data_analysis(url, 'User3', '')
 file1 = r'C:\Users\USER\OneDrive\Documents\Work\Data\Aquarius\mukungwa_nyakinama.txt'
 file2 = r'C:\Users\USER\OneDrive\Documents\Work\Data\Aquarius\nyabarongo_ruliba.txt'
 file4 = r'C:\Users\USER\OneDrive\Documents\Work\Data\Aquarius\kanzenze.txt'
