@@ -8,9 +8,9 @@ import pandas as pd
 from rwb_aquarius_data_analysis import rwb_aquarius_data_analysis
 
 
-url = 'http://10.10.82.215/AQUARIUS/'
+url = 'http://API/AQUARIUS/'
 file = r'C:\Users\USER\Documents\RWB\aquarius_location_active_20230612.txt'
-db = rwb_aquarius_data_analysis(url, 'User3', 'iwrm@2021!')
+db = rwb_aquarius_data_analysis(url, 'User3', 'pswd')
 
 data = db.get_aquarius_data_by_parameter('', 'stage', '2023-06-11 00:00', '2023-06-13 00:00')
 data2 = db.get_aquarius_data_by_parameter('', 'water level', '2023-06-11 00:00', '2023-06-13 00:00')
