@@ -16,7 +16,7 @@ class rwb_aquarius_api_calls(object):
     '''
     def __init__(self, url, username, password):
         '''
-        the URL provided should be the aquarius server url e.g.: http://10.10.82.215/AQUARIUS/
+        the URL provided should be the aquarius server url e.g.: http://IP/AQUARIUS/
         '''
         
         if '/aquarius/' in url.lower():
