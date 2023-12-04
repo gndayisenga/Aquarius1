@@ -7,7 +7,7 @@ Created on Jun 11, 2023
 import pandas as pd
 from rwb_aquarius_data_analysis import rwb_aquarius_data_analysis
 
-url = 'http://10.10.82.215/AQUARIUS/'
+url = 'http://IP/AQUARIUS/'
 file = r'C:\Users\USER\Documents\RWB\aquarius_location_data_20230703.txt'
 file2 = r'C:\Users\USER\Documents\RWB\aquarius_location_data_20230704.txt'
 db = rwb_aquarius_data_analysis(url, 'User3', 'iwrm@2021!')
