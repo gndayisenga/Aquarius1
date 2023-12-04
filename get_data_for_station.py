@@ -10,7 +10,7 @@ from rwb_aquarius_data_analysis import rwb_aquarius_data_analysis
 url = 'http://IP/AQUARIUS/'
 file = r'C:\Users\USER\Documents\RWB\aquarius_location_data_20230703.txt'
 file2 = r'C:\Users\USER\Documents\RWB\aquarius_location_data_20230704.txt'
-db = rwb_aquarius_data_analysis(url, 'User3', 'iwrm@2021!')
+db = rwb_aquarius_data_analysis(url, 'User3', 'iwrpass!')
 
 data = db.get_aquarius_data('270001', '2023-06-10 00:00', '2023-06-12 00:00', parameter = 'stage')
 
